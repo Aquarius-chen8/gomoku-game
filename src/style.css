@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0d9b5;
+  font-family: sans-serif;
+}
+
+#app {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+#status {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #555;
+  min-height: 24px;
+}
+
+canvas {
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background: #8b5e3c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #6d4a30;
+}
